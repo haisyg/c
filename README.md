@@ -9,3 +9,13 @@ if(time>=5)
 printf("have a good job");
 return 0;
 }
+#include<stdio.h>
+int main()
+{int input=0;
+printf("join university\n");
+printf("well you study hard?(1 or 0)");
+scanf("%d",&input);
+if(input==1)
+printf("have a good future");
+else printf("poor\n");
+return 0;}
