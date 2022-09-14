@@ -19,3 +19,12 @@ if(input==1)
 printf("have a good future");
 else printf("poor\n");
 return 0;}
+int main()
+{
+	int a = 3;
+	if (1 == a % 2)
+	{
+		printf("%d\n", a);
+	}
+	else printf("no\n");
+}
