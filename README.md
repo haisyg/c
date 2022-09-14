@@ -27,4 +27,5 @@ int main()
 		printf("%d\n", a);
 	}
 	else printf("no\n");
+	return 0;
 }
