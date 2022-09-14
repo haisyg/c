@@ -29,3 +29,14 @@ int main()
 	else printf("no\n");
 	return 0;
 }
+int main()
+{
+	int a = 0;
+	while (a < 101)
+	{
+		if (1 == a % 2)
+			printf("%d\n", a);
+		a++;
+	}
+	return 0;
+}
