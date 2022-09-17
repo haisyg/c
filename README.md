@@ -40,3 +40,15 @@ int main()
 	}
 	return 0;
 }
+int main()
+{
+	int day = 0;
+	scanf("%d",& day);
+	switch(day)
+	{
+	case 1:printf("ok\n"); break;
+	default:printf("no\n");
+	}
+	system("pause");
+	return 0;
+}
