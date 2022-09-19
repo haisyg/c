@@ -65,3 +65,25 @@ int main()
     system("pause");
 	return 0;
 }
+nt main()
+{
+	int a = 0;
+	int ch;
+	char password[20] = { 0 };
+	printf("请输入密码\n");
+	scanf("%s", password);
+    while ((ch = getchar() )!= '\n')
+	{
+		;
+	}
+	printf("请确认\n(y or n)");
+	a = getchar();
+		if (a == 'y')
+		{
+			printf("确认成功\n");
+		}
+	else
+		printf("取消确认\n");
+	system("pause");
+		return 0;
+}
