@@ -65,7 +65,7 @@ int main()
     system("pause");
 	return 0;
 }
-nt main()
+int main()
 {
 	int a = 0;
 	int ch;
@@ -88,7 +88,6 @@ nt main()
 		return 0;
 }
 #include<stdio.h>
-#include<string.h>
 int main()
 {   int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
 	int left = 0;
@@ -110,6 +109,28 @@ int main()
 			printf("找到了，下标为%d\n ", mid);
 			break;
 		};
+	}
+	system("pause");
+		return 0;
+}
+#include<stdio.h>
+#include<string.h>
+#include<windows.h>
+#include<stdlib.h>
+int main()
+{   char arr1[] = {"welcome to the university" };
+	char arr2[] = {"                         " };
+	int left = 0;
+	int right = strlen(arr1) - 1;
+	for(;left<=right;)
+	{
+		arr2[left] = arr1[left];
+		arr2[right] = arr1[right];
+		printf("%s\n", arr2);
+		Sleep(500);
+		if (left < right) { system("cls"); }
+		left++;
+		right--;
 	}
 	system("pause");
 		return 0;
