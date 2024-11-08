@@ -1,0 +1,29 @@
+.zhongjian{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.bj{
+    background-color: #F0F0F0;
+}
+#bcgd{
+    margin: auto;
+    width: 951px;
+    height: 101vh;
+    background-color: white;
+}
+/*.messageBoard {
+    margin: auto;
+    border: 2px solid #000;
+    width: 850px;
+    height: 300px;
+    overflow-y: scroll;
+    padding: 15px;
+    background-color: #f0f0f0;
+}*/
+#onlineUsers{
+
+}
